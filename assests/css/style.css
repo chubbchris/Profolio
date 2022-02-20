@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite ;
+    color: black;
+}
+header{ 
+    display:flex;
+    background-color: black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+}
+
+header h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 5px;
+    padding:5px;
+}
+
+header a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+.hero img{
+display: flex;
+flex-wrap:wrap;    
+margin:0 auto;
+border: 10px solid black;
+padding:15px;
+}
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.about-me h2{
+    margin-bottom: 10px;
+}
+.about-me p {
+    font-size: 23px;
+    font-weight: lighter;
+    margin: 10px;
+}
+.about-me .test{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    justify-content: center;
+}
+.projects h2 , .contact-info h2 {
+    margin-bottom: 20px;
+    border: 5px solid black;
+    color:antiquewhite;
+    font-size: 28px;
+    background-color: black;
+}
+.in-progress h3 , .completed h3 {
+ font-size: 28px;
+ font-weight: bold;
+ color:black;
+ font-style: italic;
+}
+.in-progress a , .completed a {
+    text-decoration: none;
+    color:black;
+}
+.in-progress div , .completed div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 5px dashed black;
+    padding-bottom: 10px;
+
+}
+.in-progress img , .completed img {
+    width: 30%;
+}
+.contact-info ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 28px;
+    text-decoration: none;
+}
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+footer{background-color: black;
+}
+footer h2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: antiquewhite;
+}
